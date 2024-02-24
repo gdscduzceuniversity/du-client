@@ -1,15 +1,10 @@
 import Link from "next/link";
 import { Button } from "@/src/components/ui/button";
-import { MenuIcon, XIcon } from "lucide-react";
+import { MenuIcon } from "lucide-react";
 import { useState } from "react";
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
   DrawerTrigger,
 } from "@/src/components/ui/drawer";
 

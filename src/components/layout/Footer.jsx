@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { Button } from "../ui/button";
-
 export default function FooterComponent() {
   return (
     <footer className="inset-x-0 top-0 z-50 border-t bg-gray-900">

@@ -5,7 +5,7 @@ export default function HomeLayout({ children }) {
   return (
     <>
       <HeaderComponent />
-      {children}
+      <main className="container p-4 md:p-6">{children}</main>
       <FooterComponent />
     </>
   );
